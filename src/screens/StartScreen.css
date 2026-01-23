@@ -1,0 +1,20 @@
+.start-screen {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.title {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 0px 0px 20px #5e3205, 0px 0px 5px black;
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+}
