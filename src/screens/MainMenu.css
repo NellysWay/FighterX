@@ -1,10 +1,71 @@
 .main-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: grid;
     height: 100vh;
     width: 100vw;
     background-color: #282c34;
-    color: white;
+    background-size: cover;
+    background-image: url('./src/background/Clouds.jpg');
+    background-position: center;
+    grid-template-rows: 1fr .4fr;
+    grid-template-areas: 
+    "title versus back"
+    "option1 option2 option3";
+}
+
+.main {
+    grid-area: title;
+    background-image: url('./src/background/kingtraining.jpg');
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+.main:hover {
+  animation: moveRight 5s infinite;
+}
+
+.versus {
+    grid-area: versus;
+    background-image: url('./src/background/kingversus.jpg');
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.versus:hover {
+    animation: moveRight 5s infinite;
+}
+
+.back-start {
+    grid-area: back;
+    background-image: url('./src/background/kingtreasure.jpg');
+    background-size: repeat-x;
+    background-size: cover;
+}
+
+.back-start:hover {
+    animation: moveRight 5s infinite;
+}
+
+.option1 {
+    display: flex;
+    grid-area: option1;
+    justify-content: center;
+}
+.option2 {
+    display: flex;
+    grid-area: option2;
+    justify-content: center;
+}
+.option3 {
+    display: flex;
+    grid-area: option3;
+    justify-content: center;
+}
+
+@keyframes moveRight {
+  from {
+      background-position: 0 0;
+  }
+
+  to {
+      background-position: -500px 0;
+  }
 }
