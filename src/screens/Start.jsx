@@ -10,8 +10,8 @@ export default function StartScreen({onStart }) {
 
     return (
         <div className= 'start-screen'>
-            <div className='naruto'> here</div>
             <div className='speech-bubble'> Welcome! </div>
+            <div className='naruto'> </div>
             <button onClick={onStart}>Start Game</button>
         </div>
     );

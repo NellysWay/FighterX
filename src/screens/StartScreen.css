@@ -13,8 +13,14 @@
 }
 
 .naruto {
-  background-image: url('./src/background/narutouzi.jpg');
+  width: 18vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: url('./src/background/narutouzi.png');
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
 }
 
 .speech-bubble {
