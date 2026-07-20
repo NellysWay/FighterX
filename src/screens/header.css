@@ -1,0 +1,36 @@
+
+.header-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20%;
+  width: 100vw;
+  height: 16vh;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  opacity: 80%;
+}
+
+.name {
+  grid-area: name;
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.title {
+  grid-area: title;
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.photo {
+  grid-area: photo;
+  grid-row: 1;
+  grid-column: 2;
+  background-image: url('./src/background/nelly.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 70%;
+  width: 20vw;
+  height: 10vh;
+}

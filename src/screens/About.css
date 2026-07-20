@@ -1,0 +1,41 @@
+.tile {
+    width: 90vw;
+    height: 50vh;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.category {
+    padding-top: 10%;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.pic {
+    grid-row-start: 2;
+    grid-column-end: 3;
+    width: 54vw;
+    height: 24vh;
+    border-color: white;
+    border-radius: 2rem;
+    border-style: inset;
+}
+
+.info {
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    display: flex;
+    flex-direction: row;
+}
+
