@@ -1,8 +1,10 @@
 {"Me":{
-    "college": "Limestone University 2016 - 2021",
-    "degrees": "Bachelors Computer Science / Associates Game Progamming",
-    "tf": "2x All American 400x400",
-    "soccer": "3 years",
-    "esports": "IGL First Team"
+    "college": "Limestone University 2016 - 2021 Bachelors Computer Science / Associates Game Progamming",
+    "tf": "2x All American 400x400. 400: 47.34 200: 21.5",
+    "soccer": "3 years of reserve team. Played left-wing and left-back",
+    "esports": "IGL First Team",
+    "social": "A social media browser displaying stats from a user's social media accounts.",
+    "summary": "Software Engineer with experience designing, implementing, and deploying scalable applications across full software stacks. Skilled in microservices, virtualization tooling, CI/CD pipelines, software automation, and front-end and back-end development.",
+    "joblink": "AJLA provides integrated IT solutions and technical support for state and local workforce agencies."
     }
 }
